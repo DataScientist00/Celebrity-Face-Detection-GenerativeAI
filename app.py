@@ -39,13 +39,13 @@ def detect_faces(image_path):
     largest_face = max(faces, key=lambda r: r[2] * r[3]) # to find area multiply width and height
     return [largest_face], img_rgb
 
-def draw_faces(image, faces, player_name):
+def draw_faces(image, faces, celebrity_name):
     for (x, y, w, h) in faces:
         
         # Draw a green rectangle around the face
         cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 3)
         font_scale = 1
-        cv2.putText(image, player_name, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
+        cv2.putText(image, celebrity_name, (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, font_scale, (255, 255, 255), 2)
     return image
 
 def get_info(image_path):
