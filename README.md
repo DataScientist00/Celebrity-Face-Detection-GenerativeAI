@@ -1,7 +1,7 @@
 # 🎥 Celebrity Recognition – Bollywood Actress Identifier
 
 ## Watch the Demo 📺
-[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/D1uZ_F2FBCQ)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Watch%20Video-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/EZM5AzfyXUU)
 
 This project is a **Streamlit-based web application** that uses computer vision and AI to detect and identify **Bollywood actresses** from uploaded images. It utilizes **OpenCV** for face detection and the **Groq API with LLaMA models** for intelligent identification.
 
