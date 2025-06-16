@@ -114,7 +114,7 @@ Example -
 ## 📞 Contact
 For any questions or feedback, reach out to:
 - **Email**: nikzmishra@gmail.com
-- **YouTube**: [Channel](https://www.youtube.com/@DataScienceSensei/videos)
+- **YouTube**: [Channel](https://www.youtube.com/@NeuralArc00/videos)
 
 ---
 
